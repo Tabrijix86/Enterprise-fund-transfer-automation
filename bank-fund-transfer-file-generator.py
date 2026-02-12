@@ -281,7 +281,8 @@ header.grid_columnconfigure(1, weight=1)
 
 # Load icon image
 icon_image = ctk.CTkImage(
-    light_image=Image.open("ui_components\\transfer_icon.png"), size=(40, 40)  # adjust size if needed
+    light_image=Image.open("ui_components\\transfer_icon.png"),
+    size=(40, 40),  # adjust size if needed
 )
 
 # Icon label
